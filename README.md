@@ -135,3 +135,14 @@ pytest
   `notebooks/TIP_DECODER DPT IMAGE+TEXT.ipynb`).
 - TIPS checkpoints are required for feature extraction; use the provided
   checkpoints in `tips/pytorch/checkpoints`.
+
+## Credits
+If you use this repository, please cite the original TIPS paper:
+```bibtex
+@InProceedings{tips_paper,
+    Title={{TIPS: Text-Image Pretraining with Spatial Awareness}},
+    Author={Maninis, Kevis-Kokitsi and Chen, Kaifeng and Ghosh, Soham and Karpur, Arjun and Chen, Koert and Xia, Ye and Cao, Bingyi and Salz, Daniel and Han, Guangxing and Dlabal, Jan and Gnanapragasam, Dan and Seyedhosseini, Mojtaba and Zhou, Howard and Araujo, Andr\'e},
+    Booktitle={ICLR},
+    year={2025},
+}
+```
